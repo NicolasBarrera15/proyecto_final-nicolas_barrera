@@ -158,7 +158,7 @@ footer ul li img {
     list-style: none;
     width: 100%;
     height: 190px;
-    background-color: #3b015c8f;
+    background-image: linear-gradient(to right, #3b015c8f, #af09bb,  #3b015c8f) ;
     align-items: flex-end;
     justify-content: space-between;
     flex-wrap: wrap;
