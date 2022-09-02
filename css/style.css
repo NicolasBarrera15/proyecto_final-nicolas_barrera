@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Paleta de Colores
 #3A015C
 #4F0147
@@ -5,308 +6,285 @@
 #290025
 #11001C
  */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&display=swap');
-
+@import "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&display=swap";
 /* Reseteo */
-* {
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%
-}
-
 /* Body/ Color de fondo */
-body {
-    background-color: #35012C !important;
-}
-
 /* Header */
-.header {
-    background-image: linear-gradient(to right, #3b015c8f, #af09bb,  #3b015c8f) ;
-    position: sticky;
-    top: 0%;
-    display: flex;
-    align-items: center;
-}
-
-
 /* Logo */
-.header img {
-    width: 110px;
-    padding: 10px;
-
-}
-
 /* Barra de Inicio/ listas */
-.navBar ul {
-
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.navBar ul a {
-    text-decoration: none;
-    color: #F1DAC4;
-    margin: 10px;
-    padding: 5px 10px;
-    background-color: #4F0147;
-}
-
-.navBar ul a:hover {
-    color: #f7af6c;
-    font-weight: bold;
-}
-
 /* Buscador */
-
-   
-.header form {
-    padding: 8px;
-    
-}
-
-.busqueda{
-    background-color: #d6c2d4;
-    border-radius: 10%;
-}
-
 /* Banner */
-.banner {
-    height: 236px;
-    width: 100%;
-
-}
-
 /* Main */
-
-main {
-    min-height: 80vh;
-}
-
 /*
 font-family: 'Alegreya', serif; */
 /* Productos */
-h1 {
-    text-align: center;
-    color: #F1DAC4;
-    font-family: 'Alegreya', serif;
-    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
 /* Título del párrafo */
-h2 {
-    border: 4px #F1DAC4 solid;
-    color: #F1DAC4;
-    font-family: 'Alegreya', serif;
-    text-align: center;
-}
-
 /* Párrafo Principal */
-.parrafoUno {
-    margin: 10px;
-    padding: 10px;
-    background-image: url("../img/fondo.jpg");
-    background-size: contain;
-    border: 1px black solid;
-    line-height: 1.5;
-    text-align: justify;
-    color: #F1DAC4;
-    font-family: 'Alegreya', serif;
-    font-size: 20px
-}
-
 /* parrafo dos */
-.parrafoDos {
-    margin: 10px;
-    padding: 10px;
-    border: 1px black solid;
-    background-color: #F1DAC4;
-    width: 800px;
-    height: 70px;
-    line-height: 1.5;
-    text-align: justify;
-    color: #35012C;
-    font-family: serif;
-    font-size: 20px;
-    overflow: auto;
+/* Alteraciones del texto */
+/* FOOTER */
+/* TARJETAS DE CREDITO */
+/* ACCESORIOS */
+/* titulo de tabla */
+/* tabla */
+/* MI CUENTA */
+/* CREAR CUENTA */
+/* PRODUCTOS */
+/* GRID CONTAINER */
+/* KEYFRAMES */
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Media Querys */
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
 }
 
-/* Alteraciones del texto */
-.italica {
-    font-style: italic;
+body {
+  background-color: #35012C !important;
+}
 
+.header {
+  background-image: linear-gradient(to right, rgba(59, 1, 92, 0.5607843137), #af09bb, rgba(59, 1, 92, 0.5607843137));
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  display: flex;
+  align-items: center;
+}
+.header img {
+  width: 110px;
+  padding: 10px;
+}
+.header form {
+  padding: 8px;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navBar ul a {
+  text-decoration: none;
+  color: #F1DAC4;
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #4F0147;
+}
+.navBar ul a:hover {
+  color: #f7af6c;
+  font-weight: bold;
+}
+
+.busqueda {
+  background-color: #d6c2d4;
+  border-radius: 10%;
+}
+
+.banner {
+  height: 236px;
+  width: 100%;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  text-align: center;
+  color: #F1DAC4;
+  font-family: "Alegreya", serif;
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+          animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+h2 {
+  border: 4px #F1DAC4 solid;
+  color: #F1DAC4;
+  font-family: "Alegreya", serif;
+  text-align: center;
+}
+
+.parrafoUno {
+  margin: 10px;
+  padding: 10px;
+  background-image: url("../img/fondo.jpg");
+  background-size: contain;
+  border: 1px black solid;
+  line-height: 1.5;
+  text-align: justify;
+  color: #F1DAC4;
+  font-family: "Alegreya", serif;
+  font-size: 20px;
+}
+
+.parrafoDos {
+  margin: 10px;
+  padding: 10px;
+  border: 1px black solid;
+  background-color: #F1DAC4;
+  width: 800px;
+  height: 70px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #35012C;
+  font-family: serif;
+  font-size: 20px;
+  overflow: auto;
+}
+
+.italica {
+  font-style: italic;
 }
 
 .negrita {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-/* FOOTER */
 footer ul li img {
-    width: 50px;
-    height: 50px;
-    display: inline-flexbox;
-    margin: 5px;
-
+  width: 50px;
+  height: 50px;
+  display: inline-flexbox;
+  margin: 5px;
 }
 
 .footer {
-    display: inline-flex;
-    margin-top: 15%;
-    list-style: none;
-    width: 100%;
-    height: 190px;
-    background-image: linear-gradient(to right, #3b015c8f, #af09bb,  #3b015c8f) ;
-    align-items: flex-end;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: inline-flex;
+  margin-top: 15%;
+  list-style: none;
+  width: 100%;
+  height: 190px;
+  background-image: linear-gradient(to right, rgba(59, 1, 92, 0.5607843137), #af09bb, rgba(59, 1, 92, 0.5607843137));
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
-/* TARJETAS DE CREDITO */
-.tarjetas {
-    width: 289px;
-    height: 34px;
-    margin: 5px;
-}
-
 .footer p {
-    font-size: 120%;
-    color: #F1DAC4;
+  font-size: 120%;
+  color: #F1DAC4;
 }
 
-/* ACCESORIOS */
-/* titulo de tabla */
+.tarjetas {
+  width: 289px;
+  height: 34px;
+  margin: 5px;
+}
+
 .textoTabla {
-    margin-left: 25%;
-    color: #F1DAC4;
+  margin-left: 25%;
+  color: #F1DAC4;
 }
 
-/* tabla */
 .tabla {
-    margin-left: 25%;
-    background-color: rgba(226, 43, 226, 0.422);
+  margin-left: 25%;
+  background-color: rgba(226, 43, 226, 0.422);
 }
-
 .tabla th {
-    color: #F1DAC4;
+  color: #F1DAC4;
 }
-
 .tabla td {
-    color: #F1DAC4;
+  color: #F1DAC4;
 }
 
-/* MI CUENTA */
 .formulario {
-    background-color: #4F0147;
-    width: 185px;
+  background-color: #4F0147;
+  width: 185px;
 }
-
-.colorform{
-
-    background-color: #f1dac48b;
-    
-}
-
 .formulario p {
-    color: #F1DAC4;
+  color: #F1DAC4;
 }
-
 .formulario p:hover {
-    color: #f7af6c;
-    font-weight: bold;
+  color: #f7af6c;
+  font-weight: bold;
 }
-
 .formulario a {
-    color: #F1DAC4;
+  color: #F1DAC4;
+}
+.formulario a:hover {
+  color: #f7af6c;
+  font-weight: bold;
 }
 
-.formulario a:hover {
-    color: #f7af6c;
-    font-weight: bold;
+.colorform {
+  background-color: rgba(241, 218, 196, 0.5450980392);
 }
 
 .tituloFormularioCuenta {
-    border: 3px #F1DAC4 solid;
-    width: 170px;
-    color: #F1DAC4;
+  border: 3px #F1DAC4 solid;
+  width: 170px;
+  color: #F1DAC4;
 }
 
-/* CREAR CUENTA */
 .formularioCrearCuenta {
-    background-color: #4F0147;
-    width: 270px;
+  background-color: #4F0147;
+  width: 270px;
 }
-
 .formularioCrearCuenta label {
-    color: #F1DAC4;
+  color: #F1DAC4;
 }
-
 .formularioCrearCuenta span {
-    color: #F1DAC4;
+  color: #F1DAC4;
 }
 
 .tituloFormularioCrear {
-    border: 3px #4F0147 solid;
-    width: 270px;
-    color: #F1DAC4;
+  border: 3px #4F0147 solid;
+  width: 270px;
+  color: #F1DAC4;
 }
 
-/* PRODUCTOS */
-.productos img {
-    margin: 27px;
-    padding: 0px;
-}
-
-/* GRID CONTAINER */
 .productos {
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.productos img {
+  margin: 27px;
+  padding: 0px;
 }
 
-
-
-
-/* KEYFRAMES */
-@keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-/* Media Querys */
 @media (max-width: 873px) {
-    .header {
-        flex-direction: column;
-    }
-
-    .productos {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .parrafoDos {
-        width: auto;
-    }
+  .header {
+    flex-direction: column;
+  }
+  .productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .parrafoDos {
+    width: auto;
+  }
 }
-
 @media (max-width: 580px) {
-    .productos {
-        grid-template-columns: repeat(1, 1fr)
-    }
-
-    .navBar ul a {
-        padding: 0%;
-    }
-}
+  .productos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .navBar ul a {
+    padding: 0%;
+  }
+}/*# sourceMappingURL=style.css.map */
