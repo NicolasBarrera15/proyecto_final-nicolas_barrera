@@ -1,0 +1,43 @@
+@media (max-width: 873px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parrafoDos {
+        width: auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .productos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .navBar {
+        ul {
+            a {
+                padding: 0%;
+            }
+        }
+    }
+}
+
+
+
+.tarjetas li img {
+    width: 80px;
+    height: 55px;
+}
+
+
+
+@media (max-width: 993px) {
+    .nav-link {
+
+        width: 100px;
+    }
+}

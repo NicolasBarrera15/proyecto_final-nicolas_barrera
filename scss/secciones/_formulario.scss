@@ -1,0 +1,51 @@
+.formulario {
+    background-color: #4F0147;
+    width: 185px;
+
+    p {
+        color: #F1DAC4;
+
+        &:hover {
+            color:#F1DAC4 ;
+            font-weight: bold;
+        }
+    }
+
+    a {
+        color:#F1DAC4 ;
+
+        &:hover {
+            color:#F1DAC4 ;
+            font-weight: bold;
+        }
+    }
+}
+
+.colorform {
+    background-color: #4F0147;
+}
+
+.tituloFormularioCuenta {
+    border: 3px #F1DAC4 solid;
+    width: 170px;
+    color:#F1DAC4;
+}
+
+.formularioCrearCuenta {
+    background-color: #4F0147;
+    width: 270px;
+
+    label {
+        color: #F1DAC4;
+    }
+
+    span {
+        color: #F1DAC4;
+    }
+}
+
+.tituloFormularioCrear {
+    border: 3px #4F0147 solid;
+    width: 270px;
+    color: #F1DAC4;
+}

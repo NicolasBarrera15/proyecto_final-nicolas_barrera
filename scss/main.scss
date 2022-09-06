@@ -1,0 +1,174 @@
+
+
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/formulario';
+@import './media_Querys/movile-last';
+$color_1: #F1DAC4;
+$color_2: #f7af6c;
+$color_3: #35012C;
+$font-family_1: 'Alegreya', serif;
+$font-family_2: serif;
+$background-color_1: #35012C;
+$background-color_2: #4F0147;
+$background-color_3: #d6c2d4;
+$background-color_4: #F1DAC4;
+$background-color_5: rgba(226, 43, 226, 0.422);
+$background-color_6: #f1dac48b;
+
+/* Paleta de Colores
+#3A015C
+#4F0147
+#35012C
+#290025
+#11001C
+ */
+@import "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&display=swap";
+
+/* Reseteo */
+/* Body/ Color de fondo */
+/* Header */
+/* Logo */
+/* Barra de Inicio/ listas */
+/* Buscador */
+/* Banner */
+/* Main */
+/*
+font-family: 'Alegreya', serif; */
+/* Productos */
+/* Título del párrafo */
+/* Párrafo Principal */
+/* parrafo dos */
+/* Alteraciones del texto */
+/* FOOTER */
+/* TARJETAS DE CREDITO */
+/* ACCESORIOS */
+/* titulo de tabla */
+/* tabla */
+/* MI CUENTA */
+/* CREAR CUENTA */
+/* PRODUCTOS */
+/* GRID CONTAINER */
+/* KEYFRAMES */
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Media Querys */
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: $background-color_1  !important;
+}
+
+
+
+.banner {
+    height: 236px;
+    width: 100%;
+}
+
+main {
+    min-height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    color: $color_1;
+    font-family: $font-family_1;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+h2 {
+    border: 4px #F1DAC4 solid;
+    color: $color_1;
+    font-family: $font-family_1;
+    text-align: center;
+}
+
+.parrafoUno {
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../img/fondo.jpg");
+    background-size: contain;
+    border: 1px black solid;
+    line-height: 1.5;
+    text-align: justify;
+    color: $color_1;
+    font-family: $font-family_1;
+    font-size: 20px;
+}
+
+.parrafoDos {
+    margin: 10px;
+    padding: 10px;
+    border: 1px black solid;
+    background-color: $background-color_4;
+    width: 800px;
+    height: 70px;
+    line-height: 1.5;
+    text-align: justify;
+    color: $color_3;
+    font-family: $font-family_2;
+    font-size: 20px;
+    overflow: auto;
+}
+
+.italica {
+    font-style: italic;
+}
+
+.negrita {
+    font-weight: 600;
+}
+
+
+
+.textoTabla {
+    margin-left: 25%;
+    color: $color_1;
+}
+
+.tabla {
+    margin-left: 25%;
+    background-color: $background-color_5;
+
+    th {
+        color: $color_1;
+    }
+
+    td {
+        color: $color_1;
+    }
+}
+
+
+
+.productos {
+    img {
+        margin: 27px;
+        padding: 0px;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
