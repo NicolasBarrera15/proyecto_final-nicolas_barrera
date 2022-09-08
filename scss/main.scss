@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+@import './variables/extend';
+@import './variables/colores';
 
 
 @import './secciones/header';
@@ -16,13 +24,7 @@ $background-color_4: #F1DAC4;
 $background-color_5: rgba(226, 43, 226, 0.422);
 $background-color_6: #f1dac48b;
 
-/* Paleta de Colores
-#3A015C
-#4F0147
-#35012C
-#290025
-#11001C
- */
+
 @import "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&display=swap";
 
 /* Reseteo */
@@ -65,12 +67,9 @@ font-family: 'Alegreya', serif; */
     }
 }
 
-/* Media Querys */
-* {
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-}
+
+
+
 
 body {
     background-color: $background-color_1  !important;
@@ -102,31 +101,12 @@ h2 {
 }
 
 .parrafoUno {
-    margin: 10px;
-    padding: 10px;
-    background-image: url("../img/fondo.jpg");
-    background-size: contain;
-    border: 1px black solid;
-    line-height: 1.5;
-    text-align: justify;
-    color: $color_1;
-    font-family: $font-family_1;
-    font-size: 20px;
+    @extend %estiloParrafoUno;
 }
 
 .parrafoDos {
-    margin: 10px;
-    padding: 10px;
-    border: 1px black solid;
-    background-color: $background-color_4;
-    width: 800px;
-    height: 70px;
-    line-height: 1.5;
-    text-align: justify;
-    color: $color_3;
-    font-family: $font-family_2;
-    font-size: 20px;
-    overflow: auto;
+    @extend %estiloParrafoDos;
+    @include fontStyle (#F1DAC4);
 }
 
 .italica {

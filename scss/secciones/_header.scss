@@ -17,6 +17,7 @@
 }
 
 .navBar {
+
     ul {
         list-style: none;
         display: flex;
@@ -36,37 +37,48 @@
             }
         }
     }
+
+   
 }
 
 .busqueda {
     background-color: #3b015c8f;
     border-radius: 10%;
 }
+
 .header {
     z-index: 999
 }
+
 .nav-link {
     background-color: #4F0147;
-    color: #F1DAC4 !important;
+    color: #F1DAC4;
 
 }
 
 .nav-link:hover {
-    color: #f7af6c !important;
+    color: #f7af6c;
+    
 
 }
+
 
 .nav-item {
     padding: 10px;
     color: #F1DAC4;
+
+}
+
+.nav-item:active{
+    color: #f7af6c;
 }
 
 .btn {
-    color: #F1DAC4 !important;
-    border: #F1DAC4 !important;
-    background-color: #4F0147 !important;
+    color: #F1DAC4;
+    border: #F1DAC4;
+    background-color: #4F0147;
 }
 
 .btn:hover {
-    background-color: #af09bb !important;
+    background-color: #af09bb;
 }

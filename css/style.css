@@ -1,5 +1,34 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&display=swap";
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%; }
+
+.parrafoUno {
+  margin: 10px;
+  padding: 10px;
+  background-image: url("../img/fondo.jpg");
+  background-size: contain;
+  border: 1px black solid;
+  line-height: 1.5;
+  text-align: justify;
+  color: #F1DAC4;
+  font-family: sans-serif;
+  font-size: 20px; }
+
+.parrafoDos {
+  margin: 10px;
+  padding: 10px;
+  border: 1px black solid;
+  width: 800px;
+  height: 70px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 20px;
+  overflow: auto; }
+
 .header {
   background-image: linear-gradient(to right, #3b015c8f, #af09bb, #3b015c8f);
   position: sticky;
@@ -36,22 +65,25 @@
 
 .nav-link {
   background-color: #4F0147;
-  color: #F1DAC4 !important; }
+  color: #F1DAC4; }
 
 .nav-link:hover {
-  color: #f7af6c !important; }
+  color: #f7af6c; }
 
 .nav-item {
   padding: 10px;
   color: #F1DAC4; }
 
+.nav-item:active {
+  color: #f7af6c; }
+
 .btn {
-  color: #F1DAC4 !important;
-  border: #F1DAC4 !important;
-  background-color: #4F0147 !important; }
+  color: #F1DAC4;
+  border: #F1DAC4;
+  background-color: #4F0147; }
 
 .btn:hover {
-  background-color: #af09bb !important; }
+  background-color: #af09bb; }
 
 footer ul li {
   display: inline-block;
@@ -133,13 +165,6 @@ footer ul li {
   .nav-link {
     width: 100px; } }
 
-/* Paleta de Colores
-#3A015C
-#4F0147
-#35012C
-#290025
-#11001C
- */
 /* Reseteo */
 /* Body/ Color de fondo */
 /* Header */
@@ -174,12 +199,6 @@ font-family: 'Alegreya', serif; */
   100% {
     opacity: 1; } }
 
-/* Media Querys */
-* {
-  box-sizing: border-box;
-  padding: 0%;
-  margin: 0%; }
-
 body {
   background-color: #35012C !important; }
 
@@ -202,31 +221,10 @@ h2 {
   font-family: "Alegreya", serif;
   text-align: center; }
 
-.parrafoUno {
-  margin: 10px;
-  padding: 10px;
-  background-image: url("../img/fondo.jpg");
-  background-size: contain;
-  border: 1px black solid;
-  line-height: 1.5;
-  text-align: justify;
-  color: #F1DAC4;
-  font-family: "Alegreya", serif;
-  font-size: 20px; }
-
 .parrafoDos {
-  margin: 10px;
-  padding: 10px;
-  border: 1px black solid;
   background-color: #F1DAC4;
-  width: 800px;
-  height: 70px;
-  line-height: 1.5;
-  text-align: justify;
   color: #35012C;
-  font-family: serif;
-  font-size: 20px;
-  overflow: auto; }
+  text-transform: uppercase; }
 
 .italica {
   font-style: italic; }
