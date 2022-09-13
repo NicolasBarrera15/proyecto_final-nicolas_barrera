@@ -11,7 +11,7 @@
 @import './secciones/header';
 @import './secciones/footer';
 @import './secciones/formulario';
-@import './media_Querys/movile-last';
+
 $color_1: #F1DAC4;
 $color_2: #f7af6c;
 $color_3: #35012C;
@@ -26,6 +26,9 @@ $background-color_6: #f1dac48b;
 
 
 @import "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&display=swap";
+
+
+
 
 /* Reseteo */
 /* Body/ Color de fondo */
@@ -141,8 +144,8 @@ h2 {
 
 .productos {
     img {
-        margin: 27px;
-        padding: 0px;
+        margin: 0px;
+        padding: 5px;
     }
 
     display: grid;
@@ -152,3 +155,11 @@ h2 {
     justify-items: center;
 }
 
+.card{
+    margin: 3px;
+    background-color: #F1DAC4
+}
+
+
+
+@import './media_Querys/movile-last';

@@ -5,8 +5,10 @@
     top: 0%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
-    img {
+
+    a img {
         width: 110px;
         padding: 10px;
     }
@@ -81,4 +83,13 @@
 
 .btn:hover {
     background-color: #af09bb;
+}
+
+.navbar-toggler{
+    margin-left: 476px;
+}
+
+.img-hamburguer{
+    width: 25px;
+    padding: 10px;
 }
