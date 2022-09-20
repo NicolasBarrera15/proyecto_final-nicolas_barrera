@@ -160,6 +160,13 @@ h2 {
     background-color: #F1DAC4
 }
 
+.card:hover{
+    transition: .3s;
+    transform: scale(1.10)
+    
+   
+}
+
 
 
 @import './media_Querys/movile-last';

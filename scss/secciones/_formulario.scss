@@ -1,5 +1,5 @@
 .formulario {
-    background-color: #4F0147;
+    margin-left: 34px;
     width: 185px;
 
     p {
@@ -22,18 +22,21 @@
 }
 
 .colorform {
-    background-color: #4F0147;
+    background-color: #F1DAC4;
 }
 
 .tituloFormularioCuenta {
     border: 3px #F1DAC4 solid;
     width: 170px;
     color:#F1DAC4;
+    margin-left: 34px;
 }
 
 .formularioCrearCuenta {
-    background-color: #4F0147;
+   
     width: 270px;
+    margin-left: 34px;
+   
 
     label {
         color: #F1DAC4;
@@ -43,9 +46,13 @@
         color: #F1DAC4;
     }
 }
+.botoncitos{
+    background-color: #F1DAC4;
+}
 
 .tituloFormularioCrear {
     border: 3px #4F0147 solid;
     width: 270px;
     color: #F1DAC4;
+    margin-left: 34px;
 }

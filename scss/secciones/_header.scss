@@ -40,7 +40,7 @@
         }
     }
 
-   
+
 }
 
 .busqueda {
@@ -53,14 +53,14 @@
 }
 
 .nav-link {
-    background-color: #4F0147;
+    // background-color: #4F0147;
     color: #F1DAC4;
 
 }
 
 .nav-link:hover {
     color: #f7af6c;
-    
+
 
 }
 
@@ -71,25 +71,26 @@
 
 }
 
-.nav-item:active{
+.nav-item:active {
     color: #f7af6c;
 }
 
 .btn {
     color: #F1DAC4;
     border: #F1DAC4;
-    background-color: #4F0147;
+    background-color: #4F0147; // 
 }
 
 .btn:hover {
     background-color: #af09bb;
 }
 
-.navbar-toggler{
-    margin-left: 476px;
-}
+// .navbar-toggler{
+//     margin-left: 60px;
+//     margin-top: -40px;
+// }
 
-.img-hamburguer{
-    width: 25px;
-    padding: 10px;
-}
+// .img-hamburguer{
+//     width: 25px;
+
+// }

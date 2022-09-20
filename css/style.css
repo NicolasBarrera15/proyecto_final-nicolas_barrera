@@ -8,12 +8,12 @@
 .parrafoUno {
   margin: 10px;
   padding: 10px;
-  background-image: url("../img/fondo.jpg");
+  background-color: #F1DAC4;
   background-size: contain;
   border: 1px black solid;
   line-height: 1.5;
   text-align: justify;
-  color: #F1DAC4;
+  color: #35012C;
   font-family: sans-serif;
   font-size: 20px; }
 
@@ -21,8 +21,8 @@
   margin: 10px;
   padding: 10px;
   border: 1px black solid;
-  width: 800px;
-  height: 70px;
+  width: 593px;
+  height: 354px;
   line-height: 1.5;
   text-align: justify;
   font-family: sans-serif;
@@ -65,7 +65,6 @@
   z-index: 999; }
 
 .nav-link {
-  background-color: #4F0147;
   color: #F1DAC4; }
 
 .nav-link:hover {
@@ -86,13 +85,6 @@
 .btn:hover {
   background-color: #af09bb; }
 
-.navbar-toggler {
-  margin-left: 476px; }
-
-.img-hamburguer {
-  width: 25px;
-  padding: 10px; }
-
 footer ul li {
   display: inline-block;
   padding: 7px; }
@@ -104,7 +96,7 @@ footer ul li {
 
 .footer {
   display: inline-flex;
-  margin-top: 15%;
+  margin-top: 13px;
   list-style: none;
   width: 100%;
   height: 100px;
@@ -117,7 +109,7 @@ footer ul li {
     color: #F1DAC4; }
 
 .formulario {
-  background-color: #4F0147;
+  margin-left: 34px;
   width: 185px; }
   .formulario p {
     color: #F1DAC4; }
@@ -131,25 +123,30 @@ footer ul li {
       font-weight: bold; }
 
 .colorform {
-  background-color: #4F0147; }
+  background-color: #F1DAC4; }
 
 .tituloFormularioCuenta {
   border: 3px #F1DAC4 solid;
   width: 170px;
-  color: #F1DAC4; }
+  color: #F1DAC4;
+  margin-left: 34px; }
 
 .formularioCrearCuenta {
-  background-color: #4F0147;
-  width: 270px; }
+  width: 270px;
+  margin-left: 34px; }
   .formularioCrearCuenta label {
     color: #F1DAC4; }
   .formularioCrearCuenta span {
     color: #F1DAC4; }
 
+.botoncitos {
+  background-color: #F1DAC4; }
+
 .tituloFormularioCrear {
   border: 3px #4F0147 solid;
   width: 270px;
-  color: #F1DAC4; }
+  color: #F1DAC4;
+  margin-left: 34px; }
 
 /* Reseteo */
 /* Body/ Color de fondo */
@@ -243,6 +240,10 @@ h2 {
 .card {
   margin: 3px;
   background-color: #F1DAC4; }
+
+.card:hover {
+  transition: .3s;
+  transform: scale(1.1); }
 
 @media (max-width: 873px) {
   .header {
